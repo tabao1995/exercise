@@ -1,0 +1,19 @@
+.container {
+    background-image: url(https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_800,h_834/https://flowershop.com.vn/wp-content/uploads/2020/09/y-nghia-hoa-cuc-hoa-mi-6-min.jpg);
+    margin: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.content {
+    padding: 16px;
+}
+.header1   {
+    text-align: center;
+    color: #08676d;
+}
+.para1 {
+    color: white;
+    background-color:#08676d    ;
+}
+.para2 {
+    color:#08676d  ;
+}
