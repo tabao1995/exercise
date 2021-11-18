@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif;
-
+    margin: 0;
+    padding: 0;
 }
 h2{
     text-transform: uppercase;
@@ -8,10 +9,10 @@ h2{
 .resumse{
     margin: 0;
     background-color: black ;
-    padding-top: 32px ;
-    width: 30%;
-    margin: 0 20% 0 5%;
-    padding-bottom: 12px;
+    max-width: 354px;
+    width: 40%;
+    margin: 0 4%;
+    padding: 0 4%;
 }
 .resumse > p {
     font-size: 24px;
@@ -27,7 +28,6 @@ h2{
 }
 .introduce  {
     margin: 50px 5% ;
-    z-index: 1;
     background-color: #fff;
 }
 
@@ -74,6 +74,9 @@ h2{
 .infomation > img {
     width: 90%;
     margin: 5% 5%;
+
+   
+    
 }
 .proflie {
     font-size: 24px;

@@ -11,11 +11,12 @@
         hr{
             font-size: 2px;
         }
-        h3{
+        .content-top > h3{
             height: 70px;
         }
         .container {
             display: flex;
+            justify-content: space-between;
             
         }
         .maininfo{
@@ -31,11 +32,20 @@
         .maininfo > img {
             width: 100%;
             aspect-ratio: 4/3;
+            flex-shrink: 0;
                
+        }
+        .content-top {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
         }
         .content{
             margin: 16px;
             padding: 16px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
         }
         .col75{
             width: 75%;
@@ -51,6 +61,7 @@
             border-radius: 50%;
             width: 100%;
             aspect-ratio: 1/1;
+            
         }
         .info--name{
             padding: 0 12px;
@@ -73,7 +84,7 @@
         }
         .live > p {
             line-height: 32px;
-            background-color: #ff6651;
+            background-image: linear-gradient(to right, pink , blue);
             border-radius: 12px;
 
         }
@@ -86,7 +97,17 @@
             opacity: 0.7;
 
         }
-     
+     @media screen and (max-width :900px) {
+         .col23 {
+            width:45% ;
+         }
+         
+     }
+     @media screen and (max-width : 450px) {
+         .col23 {
+            width: 90%;
+         }
+     }
     </style>
 </head>
 <body>
@@ -94,10 +115,12 @@
         <div class="col23 maininfo">
             <img src="https://www.winwinstore.vn/wp-content/uploads/2020/12/8fc0bff637.jpeg" alt="">
             <div class="content">
-                <h3>Lorem ipsum dolor sit amet
-                    Lorem ipsum dolor sit amet
-                    Lorem ipsum dolor sit amet
-                </h3>
+                <div class="content-top">
+                    <h3>Lorem ipsum dolor sit amet
+                        Lorem ipsum dolor sit amet
+                        Lorem ipsum dolor sit amet
+                    </h3>
+                </div>
                 <div class="info">
                     <div class="col23 avatar">
                         <img src="https://upload.wikimedia.org/wikipedia/vi/b/b0/Avatar-Teaser-Poster.jpg" alt="">
@@ -121,9 +144,9 @@
         <div class="col23 maininfo">
             <img src="https://file1.dangcongsan.vn/DATA/0/2018/10/68___gi%E1%BA%BFng_l%C3%A0ng_qu%E1%BA%A3ng_ph%C3%BA_c%E1%BA%A7u__%E1%BB%A9ng_h%C3%B2a___%E1%BA%A3nh_vi%E1%BA%BFt_m%E1%BA%A1nh-16_51_07_908.jpg" alt="">
             <div class="content">
-                <h3>Lorem ipsum dolor sit amet
-                   
-                </h3>
+                <div class="content-top">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                </div>
                 <div class="info">
                     <div class="col23 avatar">
                         <img src="https://upload.wikimedia.org/wikipedia/vi/b/b0/Avatar-Teaser-Poster.jpg" alt="">
@@ -147,9 +170,9 @@
         <div class="col23 maininfo">
             <img src="https://vcdn1-dulich.vnecdn.net/2021/07/16/1-1626437591.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BWzFqMmUWVFC1OfpPSUqMA" alt="">
             <div class="content">
-                <h3>Lorem ipsum dolor sit amet
-                    
-                </h3>
+                <div class="content-top">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                </div>
                 <div class="info">
                     <div class="col23 avatar">
                         <img src="https://upload.wikimedia.org/wikipedia/vi/b/b0/Avatar-Teaser-Poster.jpg" alt="">
@@ -173,9 +196,9 @@
         <div class="col23 maininfo">
             <img src="https://media-cdn.laodong.vn/Storage/NewsPortal/2021/5/26/913299/Ngan-Ha25.jpg" alt="">
             <div class="content">
-                <h3>Lorem ipsum dolor sit amet
-                   
-                </h3>
+                <div class="content-top">
+                    <h3>Lorem ipsum dolor sit amet </h3>
+                </div>
                 <div class="info">
                     <div class="col23 avatar">
                         <img src="https://upload.wikimedia.org/wikipedia/vi/b/b0/Avatar-Teaser-Poster.jpg" alt="">

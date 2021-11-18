@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .heart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heart img {
+        width: 100px;
+        animation: miss 0.5s ease forwards infinite;
+    }
+    @keyframes miss {
+        0% {
+            width: 100px; opacity: 1; 
+        }
+        25% {
+            width: 50px; opacity: 0.75;
+        }
+        75% {
+            width: 50px; opacity: 0.75;
+        }
+        100% {
+            width: 100px; opacity: 1;
+        } 
+    }
+</style>    
+<body>
+    <div class="heart">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/2048px-Heart_coraz%C3%B3n.svg.png" alt="">
+    </div>
+</body>
+</html>
