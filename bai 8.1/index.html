@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: row;
+        }
+        .container {
+            width: 70%;
+            padding-left: 5% ;
+            padding-right: 5%;
+        }
+        header {
+            display: block;
+            margin: 60px;
+        }
+        .container-header a {
+            display: inline-block;
+            text-decoration: none; 
+            color: #131;
+            padding: 0 8px;
+            opacity: 0.9;
+        }
+        .fa-circle {
+            color: black;
+            font-size: 24px;
+            margin: 0 16px;
+            opacity: 0.5;
+        }
+        .fa-facebook-f {
+            margin-left: 24px;
+        }
+        .fa-facebook-f,.fa-twitter,.fa-envelope {
+            opacity: 0.6;
+            padding-left: 4px;
+        }
+        section {
+            margin-left: 0 60px;
+        }
+        section span {
+            font-size: 68px;
+        }
+        section p {
+            opacity: 0.5;
+            margin: 24px 0 12px 0px;
+        }
+        .container-body--button {
+            width:200px;
+            line-height: 60px;
+            border-radius: 20px;
+            border: solid 2px #94edc5 ;
+            text-align: center;
+            margin: 30px 8px;
+            background-color: #71f0b7;
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .container-body--button:hover {
+            background-color: #4ef7ab;
+        }
+        footer {
+            display: flex;
+            flex-direction: row;
+        }
+        .container-footer--article {
+            width: 33,3333%;
+            border-top: rgba(0, 0, 0, 0.3) 8px solid;
+        }
+        .container-footer--article:hover {
+            border-top: chocolate 8px solid;
+        }
+        .container-footer--article a {
+            text-decoration: none; 
+            color: black;
+            margin: 16px 0px;
+            font-size: 20px;
+        }
+        .container-footer--article p {
+            padding: 12px 0;
+        }
+        aside{
+            width: 28%;
+            margin-right : 2%;
+        }
+        aside img {
+            width: 100%;
+        }
+        .border-box {
+            height: 4px; 
+            width: 24px; 
+            border-bottom: solid 2px ;
+
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="container-header">           
+            <i class="fas fa-circle"></i>
+            <a href="#">Home</a>
+            <a href="#">Collection</a>
+            <a href="#">Shop</a>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </header>
+        <section class="container-body">
+            <span>Because new fashion do never follow trends</span>
+            <div class="border-box">
+
+            </div>
+            <p>Find out the latest and freshest trends that Paris Fashion Week showed</p>
+            <div class="container-body--button">
+                read article 
+            </div>
+        </section>
+        <footer class="container-footer">
+            <div class="container-footer--article">
+                <a href="#" >Because new fashion do never follow trends</a>
+                <div class="border-box">
+
+                </div>
+              <p>Article about fashion</p>  
+            </div>
+            <div class="container-footer--article">
+                <a href="#" >Because new fashion do never follow trends</a>
+                <div class="border-box">
+
+                </div>
+              <p>Article about fashion</p>  
+            </div>
+            <div class="container-footer--article">
+                <a href="#" >Because new fashion do never follow trends</a>
+                <div class="border-box">
+
+                </div>
+              <p>Article about fashion</p>  
+            </div>
+        </footer>
+    </div>
+    <aside>
+        <img src="https://vcdn1-giaitri.vnecdn.net/2019/10/02/khanh-linh-the-face-1-1570011947.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d-vGcNP7h9sG5VTFoDcfdg" alt="">
+    </aside>
+</body>
+</html>
