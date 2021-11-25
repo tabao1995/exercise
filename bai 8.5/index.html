@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 40px;
+            background-color: rgb(207, 205, 205);
+        }
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom: white 3px solid;
+        }
+        .header--left {
+            font-size: 45px;
+            opacity: 0.4;
+            margin-bottom: 60px;
+        }
+        .header--right a {
+            margin: 32px 28px;
+            text-decoration: none;
+            opacity: 0.4;
+            color: black;
+            padding : 8px 16px;
+        }
+        .header--right a:hover {
+            background-color: #a0cd2f;
+            border-radius: 8px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .container--footer,
+        .container--content ,
+        .container--about {
+            display: flex;
+            flex-direction: row ;
+            margin-top: 16px;
+        }
+        .container--about-content {
+            background-color: white;
+           padding: 16px;
+           margin-right: 12px; 
+           width: 70%;
+        }
+        .container--about-content h1 {
+            font-weight: 400;
+        }
+        .container--photo {
+            width:30%;
+        }
+        .container--photo img {
+            width: 90%;
+            margin: 12px 5% ;
+        }
+        .container--photo p {
+            margin : 0 5%;
+        }
+        .container--photo i {
+            opacity: 0.7;
+        }
+        .col33 {
+            width:32%;
+            margin-right: 16px;
+        }
+        .container--content--content {
+         
+        }
+        .container--footer-content {
+            background-color: white;
+            padding: 12px;
+            opacity: 0.7;
+        }
+        .container--footer-nav {
+            opacity: 0.7;
+        }
+        .container--footer-nav ul {
+            list-style: none;
+            padding: 12px 0;
+        }
+        .container--footer-nav li {
+            padding: 12px 0;
+        }
+        .container--footer-nav a {
+            text-decoration: none;
+            color: black;
+            opacity: 0.7;
+            font-size: 24px;
+        }
+        .container--footer--comment {
+            opacity: 0.7;
+        }
+        .container--footer-detail  { 
+            border-left: solid rgb(129, 126, 126);
+            padding: 0 8px;
+        }
+        .footer {
+            text-align: right;
+            font-size: 20px;
+        }
+        .footer span {
+            color: rgb(71, 116, 3);
+            font-size: 24px;
+            font-weight: 900;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header--left">
+            Respond 1.5
+        </div>
+        <div class="header--right">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container--about">
+            <div class="container--about-content">
+                <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus. Phasellus et est gravida ligula blandit ullamcorper et in libero. Proin dictum id est vitae vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras mauris ante, dictum non tristique eget, pharetra id ligula. Mauris bibendum a magna et consequat. Curabitur placerat augue nec lectus tempus bibendum. Nam egestas elit sed efficitur tincidunt. Nunc pellentesque nulla sit amet eros auctor hendrerit ut id sapien. Nam porttitor, urna non pharetra ultrices, diam augue facilisis odio, id venenatis magna diam non nisi. Nulla sit amet dapibus est. Vestibulum et neque felis. Nunc eu lectus arcu.
+                    Morbi vel ante erat. Proin at pretium diam. Mauris velit turpis, volutpat quis semper eu, ultrices vel magna. Sed vitae posuere sem. Vivamus blandit mollis dolor, finibus aliquet dolor luctus sed. Phasellus eu dolor eros. Quisque volutpat ultrices massa, at vulputate quam condimentum non.
+
+Nullam tellus leo, dictum ut elementum in, iaculis et purus. Mauris volutpat magna sed justo rutrum, eget malesuada lorem cursus. Vivamus semper nisl eget auctor tristique. Suspendisse potenti. Sed a elit erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus quis iaculis dui. Nullam aliquet nisl nisi, vel accumsan nunc convallis vel. Nulla leo dui, dictum quis facilisis vitae, sollicitudin in mi. Mauris vitae vehicula enim. Nullam elementum aliquet tellus.
+
+Ut ut sapien maximus, tristique arcu vel, facilisis ligula. Maecenas eget pharetra elit. Phasellus vitae suscipit tellus. Ut eros risus, pellentesque sit amet fermentum tempus, porta ac odio. Nunc eu ultrices massa, sed suscipit magna. Nam dictum, ex ut fermentum auctor, turpis nisi feugiat libero, eget facilisis orci turpis non risus. Quisque ut convallis enim, ut facilisis nulla. Phasellus tristique nisl sed lorem lobortis, quis iaculis ipsum placerat. Curabitur lacinia purus eget ultricies condimentum. In nec augue pellentesque lorem facilisis tincidunt. Fusce mattis libero non aliquam sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sagittis tellus quis lorem vulputate, nec luctus quam tempor. In suscipit eros vitae mi congue, quis dictum turpis fermentum. Aenean sit amet libero at sem sodales elementum.
+                    Nunc in justo in arcu lacinia blandit. Aenean nec mi ornare, consequat turpis tincidunt, posuere diam. Aliquam erat volutpat. Quisque pharetra, urna sed euismod pharetra, dolor nibh tristique massa, sed egestas justo augue vel dolor. Curabitur dignissim nunc vitae leo dignissim, id ullamcorper ipsum laoreet. Duis venenatis laoreet dolor in sodales. Nulla viverra erat ut dolor imperdiet, vehicula tempus turpis tincidunt. Aliquam lectus est, placerat et commodo a, venenatis vel tortor. Vivamus maximus neque ligula, ac posuere diam varius at. Quisque malesuada a tellus in pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+            </div>
+            <div class="container--photo">
+                <p>girl <i>By AI</i></p>
+                <img src="https://vaithuhayho.com/wp-content/uploads/2021/03/hinh-anh-dep-41.jpg" alt="">
+                <p>girl <i>By AI</i></p> 
+                <img src="https://vaithuhayho.com/wp-content/uploads/2021/03/hinh-anh-dep-41.jpg" alt="">
+            </div>
+        </div>
+        <div class="container--content">
+            <div class="container--content--content col33">
+                <h1>Column 1</h1>
+                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus. Phasellus et est gravida ligula blandit ullamcorper et in libero. Proin dictum id est vitae vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras mauris ante, dictum non tristique eget, pharetra id ligula. Mauris bibendum a magna et consequat. Curabitur placerat augue nec lectus tempus bibendum. </p>
+            </div>
+            <div class="container--content--content col33">
+                <h1>Column 2</h1>
+                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus. Phasellus et est gravida ligula blandit ullamcorper et in libero. Proin dictum id est vitae vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras mauris ante, dictum non tristique eget, pharetra id ligula. Mauris bibendum a magna et consequat. Curabitur placerat augue nec lectus tempus bibendum. </p>
+            </div>
+            <div class="container--content--content col33">
+                <h1>Column 3</h1>
+                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus. Phasellus et est gravida ligula blandit ullamcorper et in libero. Proin dictum id est vitae vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras mauris ante, dictum non tristique eget, pharetra id ligula. Mauris bibendum a magna et consequat. Curabitur placerat augue nec lectus tempus bibendum. </p>
+            </div>
+        </div>
+        <div class="container--footer">
+             <div class="container--footer-content col33">
+                 <div class="container--footer-nav">
+                     <h1>Navication</h1>
+                     <ul>
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Services</a></li>
+                         <li><a href="#">Portfolio</a></li>
+                         <li><a href="#">Contact</a></li>
+                         <li><a href="#">About</a></li>
+                     </ul>
+                 </div>
+            </div>
+            <div class=" container--footer-content col33">
+                <h1>Twitter</h1>
+                <div class="container--footer--comment">
+                    <h2>@abc</h2>
+                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus.</p>
+                    <i>3 days ago</i>
+                </div>
+                <div class="container--footer--comment">
+                    <h2>@abc</h2>
+                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus.</p>
+                    <i>3 days ago</i>
+                </div>
+            </div>
+            <div class=" container--footer-content  col33">
+                <h1>Column 1</h1>
+                
+                <div class="container--footer-detail">
+                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nisi non nisl lobortis, sed suscipit eros tempor. Duis eleifend congue accumsan. Nullam sagittis massa ac pharetra cursus.</p>
+                    <h4>antutu@.com</h4>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p> &copy 2014 your Company</p>
+            <p>Design by <span>Awful.com</span></p>
+        </div>
+       
+    </footer>
+</body>
+</html>
