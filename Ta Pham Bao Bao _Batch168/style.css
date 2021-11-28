@@ -1,0 +1,135 @@
+
+
+body {
+    margin: 0 2%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-logo > img ,.header-logo > img {
+    width: 400px;
+    
+}
+.border-bottom {
+    border-bottom: 2px solid grey;
+    width: 90%;
+    margin: 2% 5%;
+}
+.header-nav a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    padding:4px 8px 4px 8px;
+    border-right: 2px solid black;
+    color: rgba(0,0,0,0.6);
+    font-weight: 700;
+    margin-top : 20px; 
+    
+}
+.header-nav a:hover {
+    background-color: #97c93c; 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.tittle {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#97c93c ;
+    border-radius: 5px;
+}
+.tittle > img {
+    width:30px;
+}
+.container-banner img {
+    width: 100%;
+}
+.container-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.col32 {
+    width: 33%;
+    
+}
+.container--content--left {
+    display: flex;
+    flex-direction: column;
+}
+.left-content-first {
+    display: flex;
+}
+.left-content-first img {
+    width: 50%;
+    padding-right: 8px;
+}
+.left-content h4 {
+    color: chocolate;
+}
+.left-content ul {
+    list-style: square;
+}
+.left-content li {
+    font-weight: bolder;
+}
+.container--content--mid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;  
+}
+.mid-content img  {
+    width: 100%;
+}
+.mid-content p {
+    color: chocolate;
+    font-weight: bold;
+}
+.mid-content span {
+    color: black;
+    background-color: #97c93c;
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.container--content--right {
+    display: flex;
+    flex-direction: column;
+}
+.content-right a {
+    text-decoration: none;
+    display: block;
+    background-color: #97c93c;
+    margin-left:10% ;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding: 4px 0  ;
+    color: black;
+}
+footer {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    border-bottom: black 1px solid;
+    margin-bottom: 15px;
+}
+.footer-logo {
+    width: 30%;
+}
+.footer-contact,.footer-copyright {
+    width: 35%;
+    text-align: right;
+}
+.footer-copyright {
+    width: 35%;
+    text-align: left;
+}
+

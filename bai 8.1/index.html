@@ -102,8 +102,30 @@
             border-bottom: solid 2px ;
 
         }
-      
-        
+        @media screen and (max-width : 1080px) {
+            
+        }
+        @media screen and (max-width : 480px) {
+        aside {
+            display: none;
+        }
+        section span {
+            font-size: 40px;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+        }
+        .container-footer--article {
+            width: 90%;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+   
     </style>
 </head>
 <body>
@@ -119,9 +141,6 @@
         </header>
         <section class="container-body">
             <span>Because new fashion do never follow trends</span>
-            <div class="border-box">
-
-            </div>
             <p>Find out the latest and freshest trends that Paris Fashion Week showed</p>
             <div class="container-body--button">
                 read article 
