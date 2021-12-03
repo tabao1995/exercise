@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .board {
+            height: 320px;
+            width: 400px;
+            border-radius: 10px;
+            border: #29568b 2px solid;
+            box-shadow: 4px 4px 10px #29568b;
+            margin: auto;
+            text-align: center;
+        }
+        h1 {
+            color: #29568b;
+        }
+        form {
+            margin-top: 60px ;
+        }
+        .input {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0 ;
+        }
+        label {
+            margin-left:40px ;
+
+        }
+        .input > input {
+            margin-right:40px;
+        }
+        .btn {
+            display: inline-block;
+            margin-left: 84px;
+            margin-top: 24px;
+        }
+        .btn input {
+            background-color: #29568b;
+            color: white;
+            border: none;
+            padding: 8px;
+        }
+        .btn input:hover {
+            opacity: 0.8;
+        }
+
+    </style>
+</head>
+<body>
+    <script src="./js.js"></script>
+    <div class="board">
+        <h1>Register </h1>
+        <form name = "myForm" action="" method="post" onsubmit="return validateForm() ">
+            <div class="input">
+                <label for="inp"> User Name: </label>
+                <input type="text" required name="fname">      
+            </div>
+            <div class="input">
+                <label for="inp">Password:</label>
+                <input type="password" required  name="fpass" >
+            </div>
+            <div class="input">
+                <label for="inp">RE-Password:</label>
+                <input type="password" required  name="rePassword" >
+            </div>
+            <div class="btn">   
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset" name="">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

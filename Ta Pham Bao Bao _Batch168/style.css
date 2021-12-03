@@ -2,11 +2,15 @@
 
 body {
     margin: 0 2%;
+    font-size: 16px;
 }
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+#menu-mobile {
+    display: none;
 }
 .footer-logo > img ,.header-logo > img {
     width: 400px;
@@ -16,6 +20,9 @@ header {
     border-bottom: 2px solid grey;
     width: 90%;
     margin: 2% 5%;
+}
+.header-nav li {
+    display:inline-block ;
 }
 .header-nav a {
     display: inline-block;
@@ -53,10 +60,8 @@ header {
     flex-direction: row;
     margin-top: 12px;
 }
-
 .col32 {
-    width: 33%;
-    
+    width: 32%;  
 }
 .container--content--left {
     display: flex;
@@ -103,6 +108,9 @@ header {
     display: flex;
     flex-direction: column;
 }
+.content-right {
+    padding:12px 0 ;
+}
 .content-right a {
     text-decoration: none;
     display: block;
@@ -124,12 +132,73 @@ footer {
 .footer-logo {
     width: 30%;
 }
-.footer-contact,.footer-copyright {
+.footer-contact {
     width: 35%;
     text-align: right;
+    font-size: 20px;
+
 }
 .footer-copyright {
     width: 35%;
     text-align: left;
+    font-size: 20px;
 }
-
+@media screen and (max-width : 1024px) {
+    .header-logo{
+     display: none;   
+    }
+    .header-nav{
+        width: 100%;
+    }
+    .col32 {
+        width: 80%;
+    }
+    .container-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-logo {
+        display: none;
+    }
+}
+@media screen and (max-width : 414px) {
+   header {
+        display: block;
+        height: 40px;
+        overflow: hidden;
+   }
+   .header-nav ul {
+        padding: 0;
+        margin: 0;
+   }
+   .header-nav li {
+       display: block;
+       
+   }
+   .header-nav li:hover {
+       background-color:#97c93c ;
+       margin: 0;
+   }
+   .header-nav a {
+       border: none;
+       line-height: 26px;
+        margin: 0;
+   }
+  #menu-mobile  {
+       display: block;
+       margin-top: 4px;
+       width:30px;
+       font-size: 30px;
+       text-align: center;
+   }
+   .footer-contact {
+        width: 35%;
+        text-align: right;
+        font-size: 12px;
+    }
+    .footer-copyright {
+        width: 35%;
+        text-align: left;
+        font-size: 12px;
+    }
+}
