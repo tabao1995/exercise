@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: row; 
+    }
+    div {
+        padding: 0 15px;
+        border-right: 1px red solid ;
+        
+    }
+   
+</style>
+<body>
+    <script>
+        document.body.style.background = '#f9e598'
+
+    for (i=0; i<11 ; i++){
+    document.write("<div style:'display:flex ; flex-direction: row; text-align: left ;  width : 7% ;'> ")
+        for (j=0; j<11; j++){
+            document.write( i + "x" + j +"="+ (j*i) + "<br>" );
+        }   document.write("</div>")}
+        let n = document.getElementsByTagName('div')[10]
+        n.style.border = 'none'
+    </script>
+</body>
+</html>

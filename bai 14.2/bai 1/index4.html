@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let m = 0
+        function dequy() {
+            let n = prompt('nhập n là số nguyên dương')
+            if (n > 0) {
+                while (n > 0) {
+                    m = n*n + m;
+                    n--;
+                    
+                } 
+                document.write ('giá trị là = ' + m )}
+                else {
+                    dequy()
+                }
+            }
+            dequy()
+    </script>
+</body>
+</html>

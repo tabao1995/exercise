@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+            let arr = []
+            
+           for (k = 0 ; k < 3 ; k++) {
+               arr[k] = []
+               for (l = 0; l <3 ; l++) {
+                   arr[k][l] = parseInt(prompt('nhập b'))   
+               }
+           }
+        for (j = 0 ; j < arr.length ;  j++) {
+            for(i = 0 ; i < arr[j].length ; i++){
+                document.write(arr[j][i] +' ' )
+            }
+            document.write('<br>')
+        }
+        let gtln = arr[0][0]
+        for (j = 0 ; j < arr.length ;  j++) {
+            for(i = 0 ; i < arr[j].length ; i++){
+               if (arr[j][i] > gtln){
+                   gtln = arr[j][i]
+               } 
+
+            }
+        }
+        </script>
+</body>
+</html>
