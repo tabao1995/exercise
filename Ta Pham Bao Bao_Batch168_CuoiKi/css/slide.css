@@ -1,0 +1,95 @@
+.myslide {
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+    .prev  {
+    right: 16px;
+    border-radius: 3px 0 0 3px;
+  }
+.prev:hover , .next:hover {
+        color: white;
+        text-decoration: none;
+}
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+ 
+  .myslide img {
+      width: 100%;
+      aspect-ratio: 16/8;
+  }
+.text {
+    color: #c01111;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 65px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+  .text1 {
+    color: #c01111;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 37px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+  .text2 {
+    color: white;
+    font-size:15px;
+    font-weight: 600;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+.dots {
+    position: absolute;
+    z-index: 1;
+    bottom: 2%;
+    left: 47%;
+}
+@media (max-width: 576px) {
+ .dots, .text2 ,.text1 ,.text {
+    display: none;
+
+}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} 

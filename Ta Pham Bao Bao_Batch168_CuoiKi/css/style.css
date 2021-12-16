@@ -1,0 +1,81 @@
+.header-banner {
+    background-color: #ffc500;
+}
+.menu {
+    background-color: #ab1a1c;
+}
+#menu-mobile {
+    display: none;
+}
+.menu .navbar {
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+}
+.nav-item{
+    padding: 0;
+}
+.slideshow{
+    
+}
+.nav-link:hover ,.nav-item:hover {
+    background-color: black;
+    color: yellow;
+}
+.nav-link {
+    color: yellow;
+}
+.mycontainer {
+    margin: 12px auto;
+}
+.myregister-form {
+    border: 1px solid #aaa;
+    padding: 0;
+    height: auto;
+}
+.register-header {
+    background-color: #eee;
+    color: #ab1a1c;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 4px 16px;
+    border-bottom: 1px solid #aaa; 
+}
+.myform {
+    padding: 10px 8px;
+}
+.mybtn {
+    width: 100%;
+    border: none;
+    background-color: #ab1a1c;
+    padding: 4px 0;
+    border-radius: 4px;
+}
+.text-color {
+    color: #ab1a1c;
+    padding: 20px 0;
+}
+.infobtn{
+    width: 100px;
+    line-height: 40px;
+    background-color: rgb(240, 173, 78);
+    padding: 12px 24p ;
+    margin: 12px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+.infobtn a {    
+    text-decoration: none;
+    color: #fff;
+}
+.infobtn:hover {
+    background-color: #ab1a1c;
+}
+footer {
+    background-color: #ab1a1c;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+
